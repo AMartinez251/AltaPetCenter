@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@90,367;95,438&display=swap');
+/* wgth 367 wdth 90
+wgth 438 wdth 95 */
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* * {
+  background-color: #FFFAF1
+} */

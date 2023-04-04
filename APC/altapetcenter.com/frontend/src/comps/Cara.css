@@ -1,0 +1,125 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide {
+    min-width: 100vw;
+}
+
+@media screen and (min-width: 700px) {
+    .carousel .carousel-slider {
+        width: 80% !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel .carousel-slider {
+        width: 100% !important;
+    }
+}
+
+.carousel .thumb img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media screen and (min-width: 700px) {
+    .carousel .slide img {
+        max-height: 400px;  /* change this to whatever you want */
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel .slide img {
+        max-height: 200px;  /* change this to whatever you want */
+        width: auto;
+    }
+}
+
+.carousel .control-dots {
+    display: none;
+}
+
+.carousel .carousel-status {
+    display: none;
+}
+
+.carousel .thumbs-wrapper {
+    width: 80%;
+}
+
+.carousel .control-next.control-arrow::before {
+    border-left: 12px solid #fff;
+}
+
+.carousel .control-prev.control-arrow::before {
+    border-right: 12px solid #fff;
+  }
+
+
+button.control-arrow {
+    width: 50px;
+}
+
+@media screen and (min-width: 900px) {
+    .carousel .control-next.control-arrow {
+      right: 15%;
+    }
+    .carousel .control-prev.control-arrow {
+      left: 15%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .carousel .control-next.control-arrow {
+      right: 5%;
+    }
+    .carousel .control-prev.control-arrow {
+      left: 5%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .carousel .control-next.control-arrow {
+      right: 2%;
+    }
+    .carousel .control-prev.control-arrow {
+      left: 2%;
+    }
+}
+
+.carousel .control-next.control-arrow:before {
+    content: '';
+    border: solid #000000;
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.carousel .control-prev.control-arrow:before {
+    content: '';
+    border: solid #000000;
+    border-width: 0 6px 6px 0;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+    opacity: 1;
+}
+
+div.thumbs-wrapper > button {
+    display: none;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background: none;
+}

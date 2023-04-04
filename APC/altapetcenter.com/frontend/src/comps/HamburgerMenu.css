@@ -1,0 +1,42 @@
+@media screen and (min-width: 900px) {
+    .hamburger-menu {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .hamburger-menu {
+      display: flex;
+    }
+  }
+    
+
+.hamburger-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 999;
+    transition: transform 0.5s ease-out;
+  }
+
+  
+  .nav-line {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    /* border: .01px solid rgba(255, 255, 255, 0.789); */
+    margin: 10px 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .hamburger-menu.open .nav-line:first-child {
+    transform: translate(0.0px, 12px) rotate(45deg);
+  }
+  
+  .hamburger-menu.open .nav-line:last-child {
+    transform: translate(-0.0px, -12px) rotate(-45deg);
+  }

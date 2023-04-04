@@ -1,0 +1,105 @@
+.hero-section {
+    margin-top: 0;
+    padding-top: 0;
+
+    height: 90%;
+    background-color: rgb(235, 218, 202);
+}
+
+
+/* call to action  */
+
+.call-to-cont {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    .call-to-call {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .call-to-call {
+        width: 95%;
+    }
+}
+
+/* big */
+
+.welcome {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.call-now {
+    margin-top: 10px;
+}
+
+.slogan {
+    margin-top: 3px;
+}
+
+@media screen and (min-width: 900px) {
+    .welcome {
+        font-size: 50px;
+    }
+
+    .call-now {
+        font-size: 30px;
+    }
+
+    .slogan {
+        font-size: 30px;
+        justify-content: center;
+    }
+}
+
+/* small */
+@media screen and (max-width: 900px) {
+    .welcome {
+        font-size: 40px;
+    }
+
+    .call-now {
+        font-size: 30px;
+    }
+
+    .slogan {
+        font-size: 30px;
+    }
+}
+
+.spacer {
+    height: 3px;
+}
+
+.dog {
+    height: 20rem;
+}
+
+/* big */
+@media screen and (min-width: 900px) {
+    .ds {
+        width: 60%;
+        font-size: 30px;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+/* small */
+@media screen and (max-width: 900px) {
+    .ds {
+        width: 90%;
+        font-size: 30px;
+        margin: auto;
+        text-align: left;
+    }
+}
+
+
+.last {
+    padding-bottom: 70px;
+}

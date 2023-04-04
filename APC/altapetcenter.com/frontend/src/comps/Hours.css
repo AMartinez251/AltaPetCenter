@@ -1,0 +1,23 @@
+.hours {
+    font-size: 28px;
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+.deets {
+    font-size: 25px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+.contact-div-cont {
+    display: flex;
+    justify-content: center;
+}
+.contact-div {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
