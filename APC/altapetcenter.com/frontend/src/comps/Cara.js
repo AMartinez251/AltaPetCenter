@@ -1,6 +1,10 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import may1 from '../dogs/may1.JPEG';
+import may2 from '../dogs/may2.JPEG';
+import may3 from '../dogs/may3.JPEG';
+import may4 from '../dogs/may4.JPEG';
 import photo1 from '../dogs/1.jpg';
 import photo2 from '../dogs/2.jpg';
 import photo3 from '../dogs/3.jpg';
@@ -21,6 +25,19 @@ const CarouselComponent = (props) => {
       <div>
         <img src={catShirley} alt="Dog 1" />
       </div>
+      <div>
+        <img src={may1} alt="Dog 1" />
+      </div>
+      <div>
+        <img src={may2} alt="Dog 1" />
+      </div>
+      <div>
+        <img src={may3} alt="Dog 1" />
+      </div>
+      <div>
+        <img src={may4} alt="Dog 1" />
+      </div>
+
       <div>
         <img src={photo1} alt="Dog 1" />
       </div>
